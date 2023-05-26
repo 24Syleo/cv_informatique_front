@@ -1,0 +1,99 @@
+body {
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.header {
+    height: 100vh;
+    background-image: url("../pics/jetdo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.citation {
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+}
+
+.bouton {
+    background-color: gray;
+    border-radius: 2em;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    box-shadow: black 1px 1px 10px;
+}
+
+.bouton:hover {
+    background-image: linear-gradient(90deg, #0b76f5 0%, #519cf5 49%, #89b8f0 80%, #0b76f5 100%);
+    animation: slidebg 5s linear infinite;
+    box-shadow: none;
+}
+
+.bouton2:hover {
+    background-image: linear-gradient(90deg, #65ec10 0%, #a3f76f 49%, #d6fac0 80%, #65ec10 100%);
+    animation: slidebg 3s linear infinite;
+    box-shadow: none;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+.github:hover {
+    color: #4078c0;
+}
+
+.linkedin:hover {
+    color: #0a66c2;
+}
+
+.email:hover {
+    color: #a3f76f;
+}
+
+.phone:hover {
+    color: #65ec10;
+}
+
+#conteneurModal {
+    position: relative;
+}
+
+#modalParent {
+    display: none;
+    position: absolute;
+    position: fixed;
+    left: 5%;
+    top: 5%;
+    width: 70%;
+    background-color: #fff;
+    z-index: 5;
+    box-shadow: #4A536B 5px 5px 10px;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0.5rem;
+    justify-items: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 1rem;
+}
+
+.image {
+    width: auto, !important;
+}
+
+.image img {
+    width: 100%;
+}
+
+.btnClose {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 99;
+}

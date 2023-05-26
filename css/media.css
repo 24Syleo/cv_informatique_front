@@ -1,0 +1,9 @@
+@media screen and (max-width: 425px) {
+    #modalParent {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 90vh;
+        font-size: 15px;
+        top: 1%;
+    }
+}

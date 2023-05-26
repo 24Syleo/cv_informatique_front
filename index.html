@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV Informatique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Wix+Madefor+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./view/main.js" type="module"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-link mx-3" href="#">Home</a>
+                        <a class="nav-link mx-3" href="./index.html#competences">Competences</a>
+                        <a class="nav-link mx-3" href="./index.html#diplomes">Diplomes</a>
+                        <a class="nav-link mx-3" href="#">A venir</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-sm-6">
+                    <h1 class="fs-4">Sylvain Beggiora</h1>
+                    <h2 class="fs-5">Dev-web</h2>
+                    <p class="citation mt-5 fs-2">"Le développement web est un art où vous créez de belles et fonctionnelles réalités à partir de rien."</p>
+                    <p class="mt-3 fs-5">Douglas Crockford</p>
+                </div>
+                <div class="col-6">
+                    <div class="align-items-center justify-content-center d-none d-md-flex">
+                        <img src="./pics/sylvain.jpg" alt="Sylvain" class="w-50 rounded-circle shadow-lg opacity-50">
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-sm-6 mt-5">
+                    <a href="./pics/sylvain_beggiora_informatique.pdf" target="_blank" class="btn bouton">CV
+                        <span></span><span></span><span></span><span></span>
+                    </a>
+                </div>
+                <div class="col-sm-6 mt-5">
+                    <a href="./index.html#diplomes" class="btn bouton bouton2">En savoir plus
+                        <span></span><span></span><span></span><span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="competences">
+        <h1 class="text-center text-uppercase fw-bold p-3 text-bg-light">Mes Competences techniques</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousselList">
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+        </div>
+    </section>
+    <section id="diplomes">
+        <h1 class="text-center text-uppercase fw-bold p-3 text-bg-light">Mes Diplomes</h1>
+        <div id="conteneurmodal">
+            <div id="modalParent">
+
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row" id="rowList">
+
+            </div>
+        </div>
+    </section>
+    <footer class="sticky-bottom ">
+        <nav class="navbar navbar-expand bg-light ">
+            <div class="navbar-nav mx-auto ">
+                <a class="nav-link mx-3 bi bi-github github " href="https://github.com/24Syleo " target="_blank "></a>
+                <a class="nav-link mx-3 bi bi-linkedin linkedin " href="https://www.linkedin.com/in/sylvain-beggiora-151b258b/ " target="_blank "></a>
+                <a class="nav-link mx-3 bi bi-envelope-at email " href="mailto:contact@sylvain-beggiora.site "></a>
+                <a class="nav-link mx-3 bi bi-telephone-fill phone " href="tel:+41798745493 "></a>
+            </div>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4 " crossorigin="anonymous "></script>
+</body>
+
+</html>
