@@ -63,7 +63,8 @@ body {
     position: relative;
 }
 
-#modalParent {
+#modalParent,
+#modalImage {
     display: none;
     position: absolute;
     position: fixed;
@@ -96,4 +97,21 @@ body {
     top: 5%;
     right: 5%;
     z-index: 99;
+}
+
+.grayscale-image {
+    filter: grayscale(100%);
+    opacity: 25%;
+    transition: filter 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .grayscale-image {
+    filter: grayscale(0%);
+    opacity: 100%;
+}
+
+.bouton-image {
+    bottom: 10%;
+    left: 35%;
 }
