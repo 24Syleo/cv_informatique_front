@@ -8,4 +8,4 @@ dip.htmlConstruct(res);
 
 const comp = new Competences();
 let rese = await comp.getCompetences();
-comp.carrousselConstruct(rese);
+comp.galerieConstruct(rese);
