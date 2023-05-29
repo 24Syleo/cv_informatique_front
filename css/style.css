@@ -59,7 +59,8 @@ body {
     color: #65ec10;
 }
 
-#conteneurModal {
+#conteneurModal,
+#conteneurModalImg {
     position: relative;
 }
 
