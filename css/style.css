@@ -4,9 +4,9 @@ body {
 
 .header {
     height: 100vh;
-    background-image: url("../pics/jetdo.png");
+    background-image: url("../pics/jetdeau.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     background-size: cover;
 }
