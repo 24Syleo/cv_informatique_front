@@ -12,3 +12,13 @@ const soft = new Soft();
 let res = await soft.getSofts();
 
 console.log(res);
+
+let slider = tns({
+    "container": "#slickCaroussel",
+    "items": 1,
+    "mouseDrag": true,
+    "nav": false,
+    "controlContainer": "#controls",
+    "prevButton": ".previous",
+    "nextButton": ".next"
+});
