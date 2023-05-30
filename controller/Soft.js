@@ -1,6 +1,6 @@
 import Axios from "../model/axios.js";
 
-class Softs {
+class Soft {
 
     _axios;
 
@@ -27,4 +27,4 @@ class Softs {
     }
 }
 
-export default Competences;
+export default Soft;
