@@ -59,6 +59,10 @@ body {
     color: #65ec10;
 }
 
+.chevron:hover {
+    color: red;
+}
+
 #conteneurModal,
 #conteneurModalImg {
     position: relative;
