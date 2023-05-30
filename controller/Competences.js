@@ -15,7 +15,7 @@ class Competences {
     async getCompetences() {
         try {
             let competences = await this._axios.getCompetences();
-            return competences;
+            this.galerieConstruct(competences);
         } catch (e) {
             throw e.error;
         }

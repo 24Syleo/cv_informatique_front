@@ -3,10 +3,7 @@ import Competences from "../controller/Competences.js";
 import Soft from "../controller/Soft.js";
 
 const dip = new Diplomes();
-let res = await dip.getDiplomes();
-
-dip.htmlConstruct(res);
+await dip.getDiplomes();
 
 const comp = new Competences();
-let rese = await comp.getCompetences();
-comp.galerieConstruct(rese);
+await comp.getCompetences();

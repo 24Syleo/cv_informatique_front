@@ -15,7 +15,7 @@ class Diplomes {
     async getDiplomes() {
         try {
             let diplomes = await this._axios.getDiplomes();
-            return diplomes;
+            this.htmlConstruct(diplomes);
         } catch (e) {
             throw e.error;
         }
