@@ -34,7 +34,6 @@ class Competences {
         this._rowEl;
         this.removeChild(this._rowEl);
         for (let i of value) {
-            console.log(i);
             const div = document.createElement("div");
             div.classList.add("col-sm-4", "position-relative", "my-1");
             const divImg = document.createElement("div");
