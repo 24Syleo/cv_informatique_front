@@ -1,5 +1,6 @@
 import { urlDiplome } from "../libs/config.js";
 import { urlCompetence } from "../libs/config.js";
+import { urlSoft } from "../libs/config.js";
 
 class Axios {
     async getDiplomes() {
@@ -32,6 +33,24 @@ class Axios {
     async getCompetenceById(id) {
         try {
             let res = await axios.get(urlCompetence + "/" + id);
+            return res.data;
+        } catch (e) {
+            throw new Error("problème");
+        }
+    }
+
+    async getSofts() {
+        try {
+            let res = await axios.get(urlSoft);
+            return res.data;
+        } catch (e) {
+            throw new Error("problème");
+        }
+    }
+
+    async getSoftById(id) {
+        try {
+            let res = await axios.get(urlSoft + "/" + id);
             return res.data;
         } catch (e) {
             throw new Error("problème");
