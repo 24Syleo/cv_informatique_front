@@ -9,9 +9,7 @@ const comp = new Competences();
 await comp.getCompetences();
 
 const soft = new Soft();
-let res = await soft.getSofts();
-
-console.log(res);
+await soft.getSofts();
 
 let slider = tns({
     "container": "#slickCaroussel",
