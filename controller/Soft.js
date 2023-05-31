@@ -32,7 +32,6 @@ class Soft {
         this._rowEl
 
         for (let i of value) {
-            console.log(i);
             const div = document.createElement('div');
             const divImg = document.createElement('div');
             divImg.classList.add('text-center');
