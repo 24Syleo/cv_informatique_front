@@ -43,7 +43,7 @@ class Soft {
             heading.classList.add("text-center", "fw-bold", "fs-1");
             heading.innerText = i.title;
             const p = document.createElement("p");
-            p.classList.add('fw-400');
+            p.classList.add("fw-400","fs-3");
             p.innerText = i.description
             this._rowEl.appendChild(div);
             div.appendChild(divImg);
