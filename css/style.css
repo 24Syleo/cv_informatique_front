@@ -124,3 +124,17 @@ body {
 .image-container:hover .text-image {
     visibility: hidden;
 }
+
+.previous {
+    left: -2.4rem;
+}
+
+.next {
+    right: -4rem;
+}
+
+#controls button:hover {
+    padding: 2rem;
+    color: blue;
+    transition: padding 0.3s ease-in-out;
+}
