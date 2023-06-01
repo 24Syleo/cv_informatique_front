@@ -44,7 +44,7 @@ class Diplomes {
             img.classList.add('card-img-top');
             const body = document.createElement('div');
             body.classList.add("card-body");
-            const heading = document.createElement('h5');
+            const heading = document.createElement('h3','fs-2');
             heading.classList.add('card-title');
             const btn = document.createElement('button');
             btn.classList.add('btn');
